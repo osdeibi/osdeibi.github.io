@@ -1,0 +1,121 @@
+/*HEADER*/
+.header-separator-green {
+    border: solid 2px;
+    color: #5CCAAA;
+}
+.header-separator-green-normal {
+    border: solid 10px;
+    color: #5CCAAA;
+}
+.header-separator-blue {
+    border: solid 8px;
+    color: #0C7C96;
+}
+.header-separator-blue-normal {
+    border: solid 10px;
+    color: #0C7C96;
+}
+.fa-caret-down{
+    color: #5CCAAA;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 600;
+}
+
+/*Slider*/
+@media (min-width: 540px) {
+    .carousel-caption {
+        transform: translateY(-50%);
+        bottom: 0;
+        top: 35% !important;
+    }
+
+    .carousel-caption h1 {
+font-size:1em !important;
+    }
+    .carousel-caption p {
+        font-size:0.8em !important;
+            }
+ }
+
+ @media (min-width: 720px) {
+    .carousel-caption {
+        transform: translateY(-50%);
+        bottom: 0;
+        top: 50% !important;
+    } 
+    .carousel-caption h1 {
+font-size:2.5em !important;
+    }
+    .carousel-caption p {
+        font-size:0.8em !important;
+            }
+ }
+
+ @media (min-width: 960px) {
+    .carousel-caption {
+        transform: translateY(-50%);
+        bottom: 0;
+        top: 60% !important;
+    } 
+    .carousel-caption h1 {
+font-size:2.5em !important;
+    }
+    .carousel-caption p {
+        font-size:0.8em !important;
+            }
+ }
+
+ @media (min-width: 1140px) { 
+    .carousel-caption {
+        transform: translateY(-50%);
+        bottom: 0;
+        top: 50% !important;
+    }
+    .carousel-caption h1 {
+font-size:3.5em !important;
+    }
+    .carousel-caption p {
+        font-size:0.8em !important;
+            }
+ }
+
+ /*Slider control*/
+ .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 30px;
+    height: 50px;
+    background-color: black;
+ }
+
+
+  /*Buttons*/
+  .btn-turtle-green {
+    color: white;
+    background-color: #5ED3B1;
+    font-weight: 900;
+    border-radius: 20px;
+}
+
+    .btn-turtle-green:hover,
+    .btn-turtle-green:focus,
+    .btn-turtle-green:active,
+    .btn-turtle-green.active,
+    .open .dropdown-toggle.btn-outline-gember {
+        color: black;
+        background-color: white;
+        border-color: black !important;
+    }
+
+    /*Vertically alling rows with cols*/
+    .row-cols{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /*Form*/
+    .form-control {
+        border-color: #5CCAAA;
+    }
